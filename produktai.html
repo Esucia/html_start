@@ -10,29 +10,35 @@
         body {
             background-image: url("./IMAGE/HD-wallpaper-skull-color.jpg");
             background-repeat: no-repeat;
-            background-size: 1550px 750px;
+            background-size: 1550px 900px;
         }
-       h1 {
-        color: antiquewhite;
-        text-align: center;
-       }
-       label {
-        color: antiquewhite;
-       }
-       img {
-        display: block;
+        h1 {
+         color: antiquewhite;
+         text-align: center;
+        }
+        label {
+            color: antiquewhite;
+        }
+        .images {
+            text-align: center;
+        }
+        .paveiksliukas {
+            text-align: center;
+        }
+        /* img { */
+            /* display: block;
         margin-left: auto;
         margin-right: auto;
         width: auto;
-       }
-    </style>
-    
+        } */
+     </style>
 </head>
 <body>
-    <img src="IMAGE/ubisoft1.png" alt="left">
+    <div class="paveiksliukas">
+     <img src="IMAGE/ubisoft1.png" alt="left">
+    </div>
         <hr>
-        <a href="./produktai.html">Produktai</a>
-        <form action="/action_page.php">
+        <form action="" method="post">
             <label for="fname">Pagrindinis:</label><br>
             <input type="text" id="Pagrindinis" name="Pagrindinis"><br>
             <label for="lname">Produktai:</label><br>
@@ -41,21 +47,23 @@
             <input type="text" id="Kontaktai" name="Kontaktai"><br><br>
             <input type="submit" value="Submit">
           </form> 
+          <br><br>
+  
         <hr>
 
     <h1>Pirmo lygio antraštė</h1>
 
 
-
-
-
-
-
-
-
-
-
+<div class="images">
+    <a href="./PRODUKTAI/produktas1.html"><img src="./IMAGE/210113_starwarsproject_announcement_3840x2160_screenshot.png" alt ="left"></a>
+    <a href="./PRODUKTAI/produktas2.html"><img src="IMAGE/Ubisoft_visuel_centre.jpg"alt="left" alt="right"></a>
+    <a href="./PRODUKTAI/produktas3.html"><img src="IMAGE/rkb2-game_info-boxart-keyart-01-560x698-logo_Tablet-_1_.jpg" alt="right"></a>
+</div>
 
         <hr>
         &copy;
+    
+    
+    
 </body>
+</html>
